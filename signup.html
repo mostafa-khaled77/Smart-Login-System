@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <!-- PT Sans Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Gooogle Fonts Library  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap Library -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Main File In CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+   <main class="d-flex justify-content-center align-items-center">
+     <div class="container text-center p-3 p-md-5 rounded-4 query-for-width">
+        <h1 class="my-5 fw-bold fst-italic font-color">Sign Up</h1>
+        <div class="form">
+            <div class="my-3">
+              <input type="text" class="form-control p-2 text-white" id="userName" placeholder="Enter Your Name">
+              </div>
+            <div class="my-3">
+              <input type="email" class="form-control p-2 text-white" id="userEmail" placeholder="Enter Your Email">
+            </div>
+            <div class="my-3 position-relative">
+              <input type="password" class="form-control p-2 text-white " id="userpassword" placeholder="Enter Your Password">
+              <i id="togglePassword" class="fa-solid fa-eye text-white position-absolute"></i>
+            </div> 
+            <div><p id="isValid" class="d-none text-success"></p></div>
+            <div><p id="notValid" class="d-none text-danger"></p></div>
+            <button class="btn w-100 font-color mt-3" onclick="signUpValidation()">Sign Up</button>
+        </div>
+        <p class="my-3 text-white">Already have account ? <a href="index.html" class="font-color" target="_self">Login</a></p>
+    </div>
+   </main>
+
+    <!-- Bundle and Js Termainate File -->
+    <script src="JavaScript/bootstrap.bundle.js"></script>
+    <script src="JavaScript/signup.js"></script>
+
+
+</body>
+</html>

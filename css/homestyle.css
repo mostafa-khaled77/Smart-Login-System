@@ -1,0 +1,16 @@
+:root {
+  --main-font: "PT Sans", sans-serif;
+  --main-color: #22333c;
+  --primary-color: #17a2b8;
+}
+body{
+  background-color: var(--main-color);
+
+}
+main{
+    max-width: 100vw;
+    min-height: 100vh;
+}
+.font-color {
+  color: var(--primary-color);
+}
